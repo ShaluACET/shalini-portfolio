@@ -1,4 +1,4 @@
- .background {
+ /* .background {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,7 @@
   animation: gradientAnimation 6s ease infinite;
 }
 /* Gradient animation */
- @keyframes gradientAnimation {
+ /* @keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
   }
@@ -19,7 +19,7 @@
   100% {
     background-position: 0% 50%;
   }
-} 
+}  */ */
 .navbar {
     display: flex;
     justify-content: space-between;
