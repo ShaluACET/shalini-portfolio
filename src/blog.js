@@ -4,7 +4,7 @@ function Blog() {
     <div>
       <div className="background">
       <nav className="navbar">
-        <div className="logo">shalini Blog</div>
+        <div className="logo">Shalini Blog</div>
         <div className="menu">
           <button className="menu-item">Home</button>
           <button className="menu-item">About</button>
