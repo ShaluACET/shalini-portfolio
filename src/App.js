@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Blog from './blog.js';
+import Blog from './Blog.js';
+import Footer from './pages/footer.js';
 
 function App() {
   return (
     <div className="App">
       <Blog/>
+      <Footer/>
     </div>
   );
 }

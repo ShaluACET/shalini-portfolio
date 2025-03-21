@@ -1,28 +1,37 @@
-import './App.css';
-function Blog() {
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/home.js";
+import About from "./pages/about.js";
+import Projects from "./pages/projects.js";
+import Contact from "./pages/contact.js";
+import Footer from "./pages/footer.js";
+import "./App.css";
+
+function App() {
   return (
-  <div className="background">
-        <nav className="navbar">
-          <div className="logo">Shalini Blog</div>
-          <div className="menu">
-            <button className="menu-item">Home</button>
-            <button className="menu-item">About</button>
-            <button className="menu-item">Services</button>
-            <button className="menu-item">Contact</button>
-          </div>
-        </nav>
-        <div>
-          <nav className="header">
-            <h5>Hey, I'M</h5>
-            <h1>R SHALINI</h1>
-            <p className="styled-paragraph">
-              A frontend-focused Web Developer building the frontend of Websites & Web
-              <br />
-              Applications that lead to the success of overall projects
-            </p>
-          </nav>
-        </div>
-      </div>
-      );
+    
+    <Router>
+      <nav className="navbar">
+      <div className="logo">My Portfolio</div> 
+       <div className="buttons"> 
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contact">Contact</Link>
+       </div> 
+      </nav>
+      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <footer/>
+    </Router>
+    
+  );
 }
-export default Blog;
+
+export default App;
+
