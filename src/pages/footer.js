@@ -1,18 +1,18 @@
 import React from "react";
 import "../App.css"; // Ensure correct CSS import
-import { FaTwitter, FaGoogle, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="footer">
 
 
-        <div className="social-icons">
+        <div className=" footer-social-icons">
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <FaTwitter />
           </a>
-          <a href="https://google.com" target="_blank" rel="noopener noreferrer">
-            <FaGoogle />
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
           </a>
           <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
             <FaYoutube />
