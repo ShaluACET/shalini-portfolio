@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shalini-portfolio/static/css/main.02daa2a7.css",
-    "main.js": "/shalini-portfolio/static/js/main.c0a32e18.js",
+    "main.css": "/shalini-portfolio/static/css/main.2bee9633.css",
+    "main.js": "/shalini-portfolio/static/js/main.0b53b2ad.js",
     "static/js/453.cffedec6.chunk.js": "/shalini-portfolio/static/js/453.cffedec6.chunk.js",
     "index.html": "/shalini-portfolio/index.html",
-    "main.02daa2a7.css.map": "/shalini-portfolio/static/css/main.02daa2a7.css.map",
-    "main.c0a32e18.js.map": "/shalini-portfolio/static/js/main.c0a32e18.js.map",
+    "main.2bee9633.css.map": "/shalini-portfolio/static/css/main.2bee9633.css.map",
+    "main.0b53b2ad.js.map": "/shalini-portfolio/static/js/main.0b53b2ad.js.map",
     "453.cffedec6.chunk.js.map": "/shalini-portfolio/static/js/453.cffedec6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02daa2a7.css",
-    "static/js/main.c0a32e18.js"
+    "static/css/main.2bee9633.css",
+    "static/js/main.0b53b2ad.js"
   ]
 }
