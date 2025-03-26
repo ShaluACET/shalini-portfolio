@@ -29,9 +29,9 @@ const Footer = () => {
         </p>
         <nav className="footer-nav">
           <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
-          <a href="/blog">Blog</a>
+          <a href="/about">Education</a>
+          <a href="/contact">Project</a>
+          <a href="/blog">Contact</a>
         </nav>
       </div>
     </footer>

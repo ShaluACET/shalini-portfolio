@@ -7,19 +7,19 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A modern and responsive personal portfolio website.",
-    // image: "https://source.unsplash.com/400x300/?technology,website",
+    image: "https://images.websitebuilderexpert.com/wp-content/uploads/2017/11/Best-Portfolio-Website-Builders.jpg",
     link: "#",
   },
   {
     title: "E-commerce App",
     description: "A full-stack e-commerce platform with Stripe payment integration.",
-    //image: "https://source.unsplash.com/400x300/?technology,ecommerce",
+    image: "https://static.vecteezy.com/system/resources/previews/035/198/647/non_2x/ai-generated-online-shopping-representation-with-people-on-digital-devices-surrounded-by-gifts-and-icons-of-products-photo.jpg",
     link: "#",
   },
   {
     title: "AI Chatbot",
     description: "A chatbot powered by GPT for automated customer support.",
-    //image: "https://source.unsplash.com/400x300/?technology,ai",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQUChmNmMxjj7wkx7__f3QmH1swX5Gd-MDKQ&s",
     link: "#",
   },
 ];

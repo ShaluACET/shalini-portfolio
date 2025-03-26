@@ -1,5 +1,8 @@
 import React from "react";
-import "../App.css"; // Ensure correct CSS import
+import "../App.css"; 
+
+
+
 
 // Skills Data
 const skills = [
@@ -13,7 +16,7 @@ const skills = [
 // Education Data
 const education = [
   {
-    degree: "Higher Secondary",
+    degree: "Higher Secondary Education",
     institution: "GOVT GIRLS HR SEC SCHOOL",
     year: "2019 - 2023",
     description: "Specialized in Mathematics and Computer Science.",
@@ -21,7 +24,7 @@ const education = [
   {
     degree: "Bachelor's in Computer Science",
     institution: "ACET ANNA UNIVERSITY",
-    year: "2017 - 2019",
+    year: "2022 - 2026",
     description: "Completed with a focus on full-stack web development and data structures.",
   },
 ];
@@ -68,7 +71,9 @@ const Home = () => {
         <h2>SKILLS FOR WEB DEVELOPMENT</h2>
         <div className="skills-content">
           <div className="skill-circle">
-            <p>WebDesigning Language</p>
+          <img src=  "https://img.freepik.com/premium-photo/headshot-photos-indian-women-dynamic-professions-occassions-indian-girl_978786-295.jpg"  alt="Skill Icon" className="skill-image" />
+
+
           </div>
           <div className="skills-list">
             {skills.map((skill, index) => (
