@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/home.js";
-// import About from "./pages/about.js";
-import Projects from "./pages/projects.js";
+//import About from "./pages/about.js";
+import Projects from "./pages/Project.js";
 import Contact from "./pages/contact.js";
-import Footer from "./pages/footer.js";
 import "./App.css";
 
 function App() {
